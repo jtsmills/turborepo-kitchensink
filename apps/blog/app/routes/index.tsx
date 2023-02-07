@@ -1,4 +1,4 @@
-import { CounterButton, NewTabLink } from "ui";
+import { Image } from "ui/Image";
 
 export default function Index() {
   return (
@@ -7,11 +7,9 @@ export default function Index() {
         Blog <br />
         <span>Kitchen Sink</span>
       </h1>
-      <CounterButton />
+      <Image src="https://placekitten.com/200/300" />
       <p className="description">
         Built With{" "}
-        <NewTabLink href="https://turbo.build/repo">Turborepo</NewTabLink> +{" "}
-        <NewTabLink href="https://remix.run/">Remix</NewTabLink>
       </p>
     </div>
   );
